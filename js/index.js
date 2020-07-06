@@ -53,6 +53,7 @@ function wordsContentChange() {
     selectedWord = words[Math.floor(Math.random() * words.length)];
     document.querySelector(".main-game").classList.remove("hidden");
     document.querySelector(".settings").classList.add("hidden");
+    document.querySelector(".main-game h2").innerHTML='Content: ' + selectWordGroup;
 
 }
 // Show hidden word
